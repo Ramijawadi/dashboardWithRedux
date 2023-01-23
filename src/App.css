@@ -46,6 +46,15 @@
 }
 
 /* all fixed css style*/
+
+
+#title {
+
+font-size: 25px;
+margin: 2px 30px -20px 2px;
+font-weight: 400;
+}
+
 .container {
   justify-content: center;
   display: flex;
@@ -58,7 +67,7 @@
 }
 
 .fixPos {
-  margin: 0 0 -76px -79px;
+  margin: 0 0 -46px -79px;
 }
 .btn {
   margin-top: 5px;
@@ -69,6 +78,20 @@
   padding: 10px;
   font-weight: 600;
 }
+.btnPub{
+  
+margin: 15px 0px 15px 0px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: var(--primary);
+  padding: 10px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 #icon {
   font-size: 20px;
@@ -77,5 +100,24 @@
   background-color: rgb(226, 233, 250);
   color: var(--primary);
   padding: 5px;
-  margin-top: 10px;
+  margin: 40px -10px -30px 15px;
+}
+
+#Picon{
+
+  font-size: 25px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--primary);
+  color:  rgb(226, 233, 250);
+  padding: 3px;
+  
+}
+
+.head{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
